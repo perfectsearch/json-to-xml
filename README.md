@@ -8,9 +8,10 @@ time).
 
 ### How do I get set up? ###
 
-* Standard Eclipse import project sequence.
-* Eclipse Java project.
-* Uses only external library log4j v2.x, already included.
+* Eclipse Java project (optional).
+* Standard Eclipse import project sequence (optional).
+* IntelliJ will create a project from *pom.xml* as well.
+* Uses only external library log4j v2.x, already included (using Maven).
 * Standard JUnit 4.x testing.
 * Deploys as a stand-alone JAR.
 * Build runnable JAR: `mvn clean compile assembly:single`
