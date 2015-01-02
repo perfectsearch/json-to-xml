@@ -1,7 +1,9 @@
 # json-to-xml #
 
 JSON-to-XML filter consisting of scanner, parser and generator. Requires
-no schema POJO describing the JSON.
+no schema POJO describing the JSON. At the time I wrote this, I could
+find no stand-alone utility to do this (without supplying a POJO each
+time).
 
 
 ### How do I get set up? ###
@@ -11,7 +13,7 @@ no schema POJO describing the JSON.
 * Uses only external library log4j v2.x, already included.
 * Standard JUnit 4.x testing.
 * Deploys as a stand-alone JAR.
-* Build runnable JAR: mvn clean compile assembly:single
+* Build runnable JAR: `mvn clean compile assembly:single`
 
 
 ### Whom do I talk to? ###
