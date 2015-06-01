@@ -25,6 +25,10 @@ else
 fi
 
 if [ -z "$JAVA" ]; then
+	JAVA="$JAVA_HOME/bin/java"
+fi
+
+if [ -z "$JAVA" ]; then
 	echo "
   Please export path to Java 8 binary as variable JAVA8 before invoking, e.g:
   export JAVA8=/home/user/dev/jdk1.8.0_25/bin/java
